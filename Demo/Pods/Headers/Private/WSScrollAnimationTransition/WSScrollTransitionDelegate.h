@@ -1,0 +1,1 @@
+../../../WSScrollAnimationTransition/WSScrollAnimationTransition/WSScrollTransitionDelegate.h

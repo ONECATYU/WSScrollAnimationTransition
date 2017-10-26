@@ -1,0 +1,15 @@
+//
+//  WS_PrefixHeader.pch
+//  WSScrollTabBarController
+//
+//  Created by 余汪送 on 2017/10/26.
+//  Copyright © 2017年 capsule. All rights reserved.
+//
+
+#ifndef WS_PrefixHeader_pch
+#define WS_PrefixHeader_pch
+
+#import "Masonry.h"
+#import "MJRefresh.h"
+
+#endif /* WS_PrefixHeader_pch */

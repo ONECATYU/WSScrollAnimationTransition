@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27CDC26F1FA07EFD0065ADFD /* WSGoodsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDC26E1FA07EFD0065ADFD /* WSGoodsDetailViewController.m */; };
+		27CDC2721FA081D30065ADFD /* GoodsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDC2711FA081D30065ADFD /* GoodsTableViewController.m */; };
+		27CDC2781FA081F60065ADFD /* GoodsCommentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDC2771FA081F60065ADFD /* GoodsCommentTableViewController.m */; };
+		27CDC2861FA0865F0065ADFD /* GoodsIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDC2851FA0865F0065ADFD /* GoodsIntroViewController.m */; };
+		27F002421FA05EF300CC2B31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F002411FA05EF300CC2B31 /* AppDelegate.m */; };
+		27F002451FA05EF300CC2B31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F002441FA05EF300CC2B31 /* ViewController.m */; };
+		27F002481FA05EF300CC2B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F002461FA05EF300CC2B31 /* Main.storyboard */; };
+		27F0024A1FA05EF300CC2B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F002491FA05EF300CC2B31 /* Assets.xcassets */; };
+		27F0024D1FA05EF300CC2B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F0024B1FA05EF300CC2B31 /* LaunchScreen.storyboard */; };
+		27F002501FA05EF300CC2B31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F0024F1FA05EF300CC2B31 /* main.m */; };
+		27F0025E1FA064E800CC2B31 /* WSScrollTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F0025D1FA064E800CC2B31 /* WSScrollTabBarController.m */; };
+		6D9F533142206E84922981BC /* libPods-WSScrollTabBarController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0459F62F09346D6926EDCB1 /* libPods-WSScrollTabBarController.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2773230E1FA189B0009C663A /* WS_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WS_PrefixHeader.pch; sourceTree = "<group>"; };
+		27CDC26D1FA07EFD0065ADFD /* WSGoodsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSGoodsDetailViewController.h; sourceTree = "<group>"; };
+		27CDC26E1FA07EFD0065ADFD /* WSGoodsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSGoodsDetailViewController.m; sourceTree = "<group>"; };
+		27CDC2701FA081D30065ADFD /* GoodsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsTableViewController.h; sourceTree = "<group>"; };
+		27CDC2711FA081D30065ADFD /* GoodsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsTableViewController.m; sourceTree = "<group>"; };
+		27CDC2761FA081F60065ADFD /* GoodsCommentTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsCommentTableViewController.h; sourceTree = "<group>"; };
+		27CDC2771FA081F60065ADFD /* GoodsCommentTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsCommentTableViewController.m; sourceTree = "<group>"; };
+		27CDC2841FA0865F0065ADFD /* GoodsIntroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsIntroViewController.h; sourceTree = "<group>"; };
+		27CDC2851FA0865F0065ADFD /* GoodsIntroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsIntroViewController.m; sourceTree = "<group>"; };
+		27F0023D1FA05EF300CC2B31 /* WSScrollTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSScrollTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F002401FA05EF300CC2B31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27F002411FA05EF300CC2B31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27F002431FA05EF300CC2B31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27F002441FA05EF300CC2B31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27F002471FA05EF300CC2B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27F002491FA05EF300CC2B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27F0024C1FA05EF300CC2B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27F0024E1FA05EF300CC2B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F0024F1FA05EF300CC2B31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27F0025C1FA064E800CC2B31 /* WSScrollTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSScrollTabBarController.h; sourceTree = "<group>"; };
+		27F0025D1FA064E800CC2B31 /* WSScrollTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSScrollTabBarController.m; sourceTree = "<group>"; };
+		3A62AF8E054EDCC3EE33DE1A /* Pods-WSScrollTabBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSScrollTabBarController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSScrollTabBarController/Pods-WSScrollTabBarController.debug.xcconfig"; sourceTree = "<group>"; };
+		CE2B0C5750406FF22C2EAD4F /* Pods-WSScrollTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSScrollTabBarController.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSScrollTabBarController/Pods-WSScrollTabBarController.release.xcconfig"; sourceTree = "<group>"; };
+		F0459F62F09346D6926EDCB1 /* libPods-WSScrollTabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WSScrollTabBarController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27F0023A1FA05EF300CC2B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9F533142206E84922981BC /* libPods-WSScrollTabBarController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27B2836A1FA1AB9D00169673 /* WSGoodsDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27CDC26D1FA07EFD0065ADFD /* WSGoodsDetailViewController.h */,
+				27CDC26E1FA07EFD0065ADFD /* WSGoodsDetailViewController.m */,
+				27CDC2701FA081D30065ADFD /* GoodsTableViewController.h */,
+				27CDC2711FA081D30065ADFD /* GoodsTableViewController.m */,
+				27CDC2841FA0865F0065ADFD /* GoodsIntroViewController.h */,
+				27CDC2851FA0865F0065ADFD /* GoodsIntroViewController.m */,
+				27CDC2761FA081F60065ADFD /* GoodsCommentTableViewController.h */,
+				27CDC2771FA081F60065ADFD /* GoodsCommentTableViewController.m */,
+			);
+			path = WSGoodsDetailViewController;
+			sourceTree = "<group>";
+		};
+		27CDC2691FA067130065ADFD /* WSScrollTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				27F0025C1FA064E800CC2B31 /* WSScrollTabBarController.h */,
+				27F0025D1FA064E800CC2B31 /* WSScrollTabBarController.m */,
+			);
+			path = WSScrollTabBarController;
+			sourceTree = "<group>";
+		};
+		27F002341FA05EF300CC2B31 = {
+			isa = PBXGroup;
+			children = (
+				27F0023F1FA05EF300CC2B31 /* WSScrollTabBarController */,
+				27F0023E1FA05EF300CC2B31 /* Products */,
+				8E10B7C25784C3C66B578B10 /* Pods */,
+				D394E1FF6E5AB0D036A8E9B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27F0023E1FA05EF300CC2B31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27F0023D1FA05EF300CC2B31 /* WSScrollTabBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27F0023F1FA05EF300CC2B31 /* WSScrollTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				27CDC2691FA067130065ADFD /* WSScrollTabBarController */,
+				27B2836A1FA1AB9D00169673 /* WSGoodsDetailViewController */,
+				27F002401FA05EF300CC2B31 /* AppDelegate.h */,
+				27F002411FA05EF300CC2B31 /* AppDelegate.m */,
+				27F002431FA05EF300CC2B31 /* ViewController.h */,
+				27F002441FA05EF300CC2B31 /* ViewController.m */,
+				27F002461FA05EF300CC2B31 /* Main.storyboard */,
+				27F002491FA05EF300CC2B31 /* Assets.xcassets */,
+				27F0024B1FA05EF300CC2B31 /* LaunchScreen.storyboard */,
+				27F0024E1FA05EF300CC2B31 /* Info.plist */,
+				27F0024F1FA05EF300CC2B31 /* main.m */,
+				2773230E1FA189B0009C663A /* WS_PrefixHeader.pch */,
+			);
+			path = WSScrollTabBarController;
+			sourceTree = "<group>";
+		};
+		8E10B7C25784C3C66B578B10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A62AF8E054EDCC3EE33DE1A /* Pods-WSScrollTabBarController.debug.xcconfig */,
+				CE2B0C5750406FF22C2EAD4F /* Pods-WSScrollTabBarController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D394E1FF6E5AB0D036A8E9B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0459F62F09346D6926EDCB1 /* libPods-WSScrollTabBarController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27F0023C1FA05EF300CC2B31 /* WSScrollTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F002531FA05EF300CC2B31 /* Build configuration list for PBXNativeTarget "WSScrollTabBarController" */;
+			buildPhases = (
+				ACD436D59E09F7BC5CCB5AA6 /* [CP] Check Pods Manifest.lock */,
+				27F002391FA05EF300CC2B31 /* Sources */,
+				27F0023A1FA05EF300CC2B31 /* Frameworks */,
+				27F0023B1FA05EF300CC2B31 /* Resources */,
+				1C818AC2796ADB30C0A829F2 /* [CP] Embed Pods Frameworks */,
+				FC9C91946DBC6D5E4995E926 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSScrollTabBarController;
+			productName = WSScrollTabBarController;
+			productReference = 27F0023D1FA05EF300CC2B31 /* WSScrollTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27F002351FA05EF300CC2B31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = capsule;
+				TargetAttributes = {
+					27F0023C1FA05EF300CC2B31 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 27F002381FA05EF300CC2B31 /* Build configuration list for PBXProject "WSScrollTabBarController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27F002341FA05EF300CC2B31;
+			productRefGroup = 27F0023E1FA05EF300CC2B31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27F0023C1FA05EF300CC2B31 /* WSScrollTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27F0023B1FA05EF300CC2B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F0024D1FA05EF300CC2B31 /* LaunchScreen.storyboard in Resources */,
+				27F0024A1FA05EF300CC2B31 /* Assets.xcassets in Resources */,
+				27F002481FA05EF300CC2B31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C818AC2796ADB30C0A829F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSScrollTabBarController/Pods-WSScrollTabBarController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACD436D59E09F7BC5CCB5AA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WSScrollTabBarController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC9C91946DBC6D5E4995E926 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WSScrollTabBarController/Pods-WSScrollTabBarController-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSScrollTabBarController/Pods-WSScrollTabBarController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27F002391FA05EF300CC2B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CDC2721FA081D30065ADFD /* GoodsTableViewController.m in Sources */,
+				27CDC26F1FA07EFD0065ADFD /* WSGoodsDetailViewController.m in Sources */,
+				27F002451FA05EF300CC2B31 /* ViewController.m in Sources */,
+				27CDC2861FA0865F0065ADFD /* GoodsIntroViewController.m in Sources */,
+				27CDC2781FA081F60065ADFD /* GoodsCommentTableViewController.m in Sources */,
+				27F0025E1FA064E800CC2B31 /* WSScrollTabBarController.m in Sources */,
+				27F002501FA05EF300CC2B31 /* main.m in Sources */,
+				27F002421FA05EF300CC2B31 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27F002461FA05EF300CC2B31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F002471FA05EF300CC2B31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27F0024B1FA05EF300CC2B31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F0024C1FA05EF300CC2B31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27F002511FA05EF300CC2B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27F002521FA05EF300CC2B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27F002541FA05EF300CC2B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A62AF8E054EDCC3EE33DE1A /* Pods-WSScrollTabBarController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = WSScrollTabBarController/WS_PrefixHeader.pch;
+				INFOPLIST_FILE = WSScrollTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.capsule.WSScrollTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27F002551FA05EF300CC2B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2B0C5750406FF22C2EAD4F /* Pods-WSScrollTabBarController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = WSScrollTabBarController/WS_PrefixHeader.pch;
+				INFOPLIST_FILE = WSScrollTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.capsule.WSScrollTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27F002381FA05EF300CC2B31 /* Build configuration list for PBXProject "WSScrollTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F002511FA05EF300CC2B31 /* Debug */,
+				27F002521FA05EF300CC2B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27F002531FA05EF300CC2B31 /* Build configuration list for PBXNativeTarget "WSScrollTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F002541FA05EF300CC2B31 /* Debug */,
+				27F002551FA05EF300CC2B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27F002351FA05EF300CC2B31 /* Project object */;
+}
