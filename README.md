@@ -1,7 +1,7 @@
 ### demo运行效果如下:    
 <img src="https://github.com/ONECATYU/WSScrollAnimationTransition/blob/master/DemoRun.gif"/><br>
 ### 使用
-使用WSScrollTransitionDelegate类,重写init和setViewControllers方法,就能实现左右滑动交互转场.
+使用WSScrollTransitionDelegate类,重写UITabBarController的init和setViewControllers方法,就能实现左右滑动交互转场.
 ```objective-c
 - (instancetype)init
 {
