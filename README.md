@@ -21,3 +21,6 @@
     _transitionDelegate.scrollAnimation.viewCtrollers = viewControllers;
 }   
 ```
+上拉下拉转场时需要注意:<br>
+1.先要将动画控制器的scrollDirection设置为WSAnimationScrollDirectionVertical.<br>
+2.再设置tabBarController的selectedIndex
